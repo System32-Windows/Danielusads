@@ -9,13 +9,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
     <br>
     <br><br><br>
-    <form action="none">
-        <input type="email" name="" id="" placeholder="Wpisz swój email">
+    <form action="">
+        <h2 id="warn"></h2>
+        <input type="email" name="email" id="email" placeholder="Wpisz swój email" title="Wpisz swój email" autocomplete="email">
+        <input type="password" name="pass" id="pass" placeholder="Wpisz swoje hasło" title="Wpisz swoje hasło" autocomplete="current-password">
+        <button type="button" for="pass" class="small" title="Potwierdź" id="submit" onclick="send()">Potwierdź</button>
+        <br>
+        <h1>Jeśli nie masz swojego loginu, skontaktuj się z Danielusem. Możesz go spotkać w szkole w godz. 8⁰⁰ - 12³⁰.</h1>
     </form>
 </body>
 
