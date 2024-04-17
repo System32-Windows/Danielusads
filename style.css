@@ -19,6 +19,7 @@ header {
 }
 
 button {
+    margin: 10px;
     font-size: 2vh;
     color: #fff;
     padding: 10px;
@@ -40,7 +41,7 @@ button:hover {
 main {
     text-align: center;
     width: device-width;
-    height: 60vh;
+    height: 70vh;
     background-color: #ccc;
     border-radius: 10px;
 }
@@ -88,4 +89,12 @@ main h3 {
     width: 100%;
     background-color: #ffffffbb;
     border-radius: 5vh;
+}
+
+#dawindow {
+    margin-bottom: 30px;
+}
+
+#button {
+    margin: 5vh;
 }
