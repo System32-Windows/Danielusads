@@ -1,7 +1,7 @@
 var currentad = -1
 var user = -1
 var ads = {
-    0: ["miejsce.png", "Miejsce na reklamę", "https://system32-windows.github.io/danielusads"],
+    0: ["miejsce.png", "Miejsce na reklamę", "https://system32-windows.github.io/Danielusads"],
 }
 
 var users = {
