@@ -9,18 +9,21 @@ var users = {
 }
 
 function send() {
-    for (let i = 0; i < 2; i++) {
-        if (document.getElementById("email").value === users[i][0]) {
-            if (document.getElementById("pass").value === users[i][1]) {
-                user = i;
-            } else {
-                document.getElementById("warn").innerHTML = "Nieprawidłowe hasło";
-            }
+    if (document.getElementById("email").value === users[0][0]) {
+        if (document.getElementById("pass").value === users[0][1]) {
+            user = 0;
         } else {
-            document.getElementById("warn").innerHTML = "Nieprawidłowy email";
+            document.getElementById("warn").innerHTML = "Nieprawidłowe hasło";
         }
+    } else if (document.getElementById("email").value === users[1][0]) {
+        if (document.getElementById("pass").value === users[1][1]) {
+            user = 0;
+        } else {
+            document.getElementById("warn").innerHTML = "Nieprawidłowe hasło";
+        }
+    } else {
+        document.getElementById("warn").innerHTML = "Nieprawidłowy email";
     }
-
 }
 
 function adload() {
