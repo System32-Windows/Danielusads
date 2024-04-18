@@ -12,6 +12,8 @@ function send() {
     if (document.getElementById("email").value === users[0][0]) {
         if (document.getElementById("pass").value === users[0][1]) {
             user = 0;
+            document.getElementById("main").style.display = "block"
+            document.getElementById("form").style.display = "none"
         } else {
             document.getElementById("warn").innerHTML = "Nieprawidłowe hasło";
         }
