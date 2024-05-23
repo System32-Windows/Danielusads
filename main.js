@@ -1,7 +1,9 @@
 var currentad = -1
 var user = -1
+var num = 2
 var ads = {
     0: ["miejsce.png", "Miejsce na reklamę", "https://system32-windows.github.io/Danielusads"],
+    1: ["dropy.png", "Dropy Kaczory!!!", "https://dropy-kaczory.github.io"],
 }
 
 var users = {
@@ -29,7 +31,7 @@ function send() {
 }
 
 function adload() {
-    currentad = Math.floor(Math.random() * 1)
+    currentad = Math.floor(Math.random() * num)
     document.getElementById("href").href = ads[currentad][2]
     document.getElementById("ad").src = `danieluscdn/${ads[currentad][0]}`
 }
