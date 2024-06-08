@@ -35,7 +35,3 @@ function adload() {
     document.getElementById("href").href = ads[currentad][2]
     document.getElementById("ad").src = `danieluscdn/${ads[currentad][0]}`
 }
-
-function statload() {
-
-}
