@@ -1,9 +1,10 @@
 var currentad = -1;
 var user = -1;
-var num = 2;
+var num = 3;
 var ads = {
     0: ["miejsce.png", "Miejsce na reklamę", "https://system32-windows.github.io/Danielusads"],
     1: ["dropy.png", "Dropy Kaczory!!!", "https://dropy-kaczory.github.io"],
+    2: ["danielus-pl.png", "Danielus", "https://danielus.pl"]
 };
 
 var users = {
